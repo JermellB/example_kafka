@@ -3777,3 +3777,435 @@ WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subsc
 INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
 INFO:root:No messages for at least 30 seconds... Killing program.
 INFO:kafka.producer.kafka:Kafka producer closed
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:root:Are processes alive?
+INFO:root:[True, True, True, True]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6500, timestamp=1495152728972, timestamp_type=0, key=None, value='0', checksum=-1512149192, serialized_key_size=-1, serialized_value_size=1)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6501, timestamp=1495152728973, timestamp_type=0, key=None, value='1', checksum=1025193104, serialized_key_size=-1, serialized_value_size=1)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6502, timestamp=1495152728973, timestamp_type=0, key=None, value='2', checksum=-1542298326, serialized_key_size=-1, serialized_value_size=1)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6503, timestamp=1495152728973, timestamp_type=0, key=None, value='3', checksum=-753576516, serialized_key_size=-1, serialized_value_size=1)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6504, timestamp=1495152728973, timestamp_type=0, key=None, value='4', checksum=1299300383, serialized_key_size=-1, serialized_value_size=1)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6505, timestamp=1495152728973, timestamp_type=0, key=None, value='5', checksum=980873353, serialized_key_size=-1, serialized_value_size=1)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6506, timestamp=1495152728973, timestamp_type=0, key=None, value='6', checksum=-1551916749, serialized_key_size=-1, serialized_value_size=1)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6507, timestamp=1495152728974, timestamp_type=0, key=None, value='7', checksum=1062152870, serialized_key_size=-1, serialized_value_size=1)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6508, timestamp=1495152728974, timestamp_type=0, key=None, value='8', checksum=-1343211721, serialized_key_size=-1, serialized_value_size=1)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6509, timestamp=1495152728974, timestamp_type=0, key=None, value='9', checksum=-654899295, serialized_key_size=-1, serialized_value_size=1)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6510, timestamp=1495152728974, timestamp_type=0, key=None, value='10', checksum=-1622307063, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6511, timestamp=1495152728974, timestamp_type=0, key=None, value='11', checksum=-397754465, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6512, timestamp=1495152728975, timestamp_type=0, key=None, value='12', checksum=-1328729627, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6513, timestamp=1495152728975, timestamp_type=0, key=None, value='13', checksum=-943062669, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6514, timestamp=1495152728975, timestamp_type=0, key=None, value='14', checksum=1504613584, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6515, timestamp=1495152728975, timestamp_type=0, key=None, value='15', checksum=782869574, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6516, timestamp=1495152728975, timestamp_type=0, key=None, value='16', checksum=-1214188036, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6517, timestamp=1495152728975, timestamp_type=0, key=None, value='17', checksum=-1062746774, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6518, timestamp=1495152728976, timestamp_type=0, key=None, value='18', checksum=1830217974, serialized_key_size=-1, serialized_value_size=2)
+INFO:kafka.producer.kafka:Closing the Kafka producer with 999999999 secs timeout.
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6519, timestamp=1495152728976, timestamp_type=0, key=None, value='19', checksum=437377120, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6520, timestamp=1495152728976, timestamp_type=0, key=None, value='20', checksum=1222652679, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6521, timestamp=1495152728976, timestamp_type=0, key=None, value='21', checksum=1072104337, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6522, timestamp=1495152728976, timestamp_type=0, key=None, value='22', checksum=-1494330837, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6523, timestamp=1495152728976, timestamp_type=0, key=None, value='23', checksum=-773233987, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6524, timestamp=1495152728977, timestamp_type=0, key=None, value='24', checksum=-1912395554, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6525, timestamp=1495152728977, timestamp_type=0, key=None, value='25', checksum=-117172152, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6526, timestamp=1495152728977, timestamp_type=0, key=None, value='26', checksum=1611483634, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6527, timestamp=1495152728977, timestamp_type=0, key=None, value='27', checksum=386562404, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6528, timestamp=1495152728977, timestamp_type=0, key=None, value='28', checksum=-2018155275, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6529, timestamp=1495152728977, timestamp_type=0, key=None, value='29', checksum=-256748445, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6530, timestamp=1495152728977, timestamp_type=0, key=None, value='30', checksum=-1871323770, serialized_key_size=-1, serialized_value_size=2)
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: Closing connection. 
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6531, timestamp=1495152728978, timestamp_type=0, key=None, value='31', checksum=2123402001, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6532, timestamp=1495152728978, timestamp_type=0, key=None, value='32', checksum=-409347413, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6533, timestamp=1495152728978, timestamp_type=0, key=None, value='33', checksum=-1868633539, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6534, timestamp=1495152728978, timestamp_type=0, key=None, value='34', checksum=251297694, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6535, timestamp=1495152728978, timestamp_type=0, key=None, value='35', checksum=2046643976, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6536, timestamp=1495152728978, timestamp_type=0, key=None, value='36', checksum=-520872270, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6537, timestamp=1495152728979, timestamp_type=0, key=None, value='37', checksum=1451094500, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6538, timestamp=1495152728979, timestamp_type=0, key=None, value='38', checksum=-960304011, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6539, timestamp=1495152728979, timestamp_type=0, key=None, value='39', checksum=-1312432925, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6540, timestamp=1495152728979, timestamp_type=0, key=None, value='40', checksum=-2024213888, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6541, timestamp=1495152728979, timestamp_type=0, key=None, value='41', checksum=-262159850, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6542, timestamp=1495152728979, timestamp_type=0, key=None, value='42', checksum=1767281580, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6543, timestamp=1495152728980, timestamp_type=0, key=None, value='43', checksum=929740473, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6544, timestamp=1495152728981, timestamp_type=0, key=None, value='44', checksum=1753283802, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6545, timestamp=1495152728981, timestamp_type=0, key=None, value='45', checksum=528993356, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6546, timestamp=1495152728981, timestamp_type=0, key=None, value='46', checksum=-2037473802, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6547, timestamp=1495152728981, timestamp_type=0, key=None, value='47', checksum=-242635424, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6548, timestamp=1495152728982, timestamp_type=0, key=None, value='48', checksum=-120269072, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6549, timestamp=1495152728982, timestamp_type=0, key=None, value='49', checksum=-1881938330, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6550, timestamp=1495152728983, timestamp_type=0, key=None, value='50', checksum=781889603, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6551, timestamp=1495152728984, timestamp_type=0, key=None, value='51', checksum=-899320813, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6552, timestamp=1495152728984, timestamp_type=0, key=None, value='52', checksum=1399596457, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6553, timestamp=1495152728984, timestamp_type=0, key=None, value='53', checksum=610997567, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6554, timestamp=1495152728985, timestamp_type=0, key=None, value='54', checksum=2072076124, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6555, timestamp=1495152728985, timestamp_type=0, key=None, value='55', checksum=210137034, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6556, timestamp=1495152728985, timestamp_type=0, key=None, value='56', checksum=-1785774480, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6557, timestamp=1495152728985, timestamp_type=0, key=None, value='57', checksum=-494399770, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6558, timestamp=1495152728985, timestamp_type=0, key=None, value='58', checksum=1916212087, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6559, timestamp=1495152728986, timestamp_type=0, key=None, value='59', checksum=-1663941152, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6560, timestamp=1495152728987, timestamp_type=0, key=None, value='60', checksum=263024967, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6561, timestamp=1495152728987, timestamp_type=0, key=None, value='61', checksum=2024423889, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6562, timestamp=1495152728987, timestamp_type=0, key=None, value='62', checksum=-509407125, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6563, timestamp=1495152728988, timestamp_type=0, key=None, value='63', checksum=-1080085122, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6564, timestamp=1495152728988, timestamp_type=0, key=None, value='64', checksum=570138845, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6565, timestamp=1495152728988, timestamp_type=0, key=None, value='65', checksum=1459392587, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6566, timestamp=1495152728989, timestamp_type=0, key=None, value='66', checksum=242949681, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6567, timestamp=1495152728990, timestamp_type=0, key=None, value='67', checksum=-526497626, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6568, timestamp=1495152728991, timestamp_type=0, key=None, value='68', checksum=-1313895689, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6569, timestamp=1495152728991, timestamp_type=0, key=None, value='69', checksum=-962020767, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6570, timestamp=1495152728991, timestamp_type=0, key=None, value='70', checksum=-1502661756, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6571, timestamp=1495152728991, timestamp_type=0, key=None, value='71', checksum=-781712622, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6572, timestamp=1495152728992, timestamp_type=0, key=None, value='72', checksum=-202117774, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6573, timestamp=1495152728992, timestamp_type=0, key=None, value='73', checksum=-2064327196, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6574, timestamp=1495152728992, timestamp_type=0, key=None, value='74', checksum=445663303, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6575, timestamp=1495152728992, timestamp_type=0, key=None, value='75', checksum=1838643409, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6576, timestamp=1495152728993, timestamp_type=0, key=None, value='76', checksum=890304171, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6577, timestamp=1495152728993, timestamp_type=0, key=None, value='77', checksum=1108854333, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6578, timestamp=1495152728993, timestamp_type=0, key=None, value='78', checksum=-760685652, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6579, timestamp=1495152728993, timestamp_type=0, key=None, value='79', checksum=-1515197638, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6580, timestamp=1495152728993, timestamp_type=0, key=None, value='80', checksum=1542147921, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6581, timestamp=1495152728994, timestamp_type=0, key=None, value='81', checksum=-1257367098, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6582, timestamp=1495152728994, timestamp_type=0, key=None, value='82', checksum=738674812, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6583, timestamp=1495152728994, timestamp_type=0, key=None, value='83', checksum=1526757610, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6584, timestamp=1495152728994, timestamp_type=0, key=None, value='84', checksum=-983241399, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6585, timestamp=1495152728995, timestamp_type=0, key=None, value='85', checksum=1944912415, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6586, timestamp=1495152728998, timestamp_type=0, key=None, value='86', checksum=-1682702361, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6587, timestamp=1495152728998, timestamp_type=0, key=None, value='87', checksum=-323694735, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6588, timestamp=1495152728999, timestamp_type=0, key=None, value='88', checksum=-1115353824, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6589, timestamp=1495152728999, timestamp_type=0, key=None, value='89', checksum=-897434186, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6590, timestamp=1495152728999, timestamp_type=0, key=None, value='90', checksum=-1438272429, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6591, timestamp=1495152729000, timestamp_type=0, key=None, value='91', checksum=1320841219, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6592, timestamp=1495152729000, timestamp_type=0, key=None, value='92', checksum=-676126279, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6593, timestamp=1495152729001, timestamp_type=0, key=None, value='93', checksum=1631244015, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6594, timestamp=1495152729001, timestamp_type=0, key=None, value='94', checksum=-10593460, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6595, timestamp=1495152729001, timestamp_type=0, key=None, value='95', checksum=-2007405606, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6596, timestamp=1495152729002, timestamp_type=0, key=None, value='96', checksum=-2001576863, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6597, timestamp=1495152729002, timestamp_type=0, key=None, value='97', checksum=-4887305, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6598, timestamp=1495152729002, timestamp_type=0, key=None, value='98', checksum=1862955366, serialized_key_size=-1, serialized_value_size=2)
+INFO:root:putting msg: ConsumerRecord(topic=u'test', partition=0, offset=6599, timestamp=1495152729002, timestamp_type=0, key=None, value='99', checksum=403522032, serialized_key_size=-1, serialized_value_size=2)
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:kafka.client:Bootstrapping cluster metadata from [('localhost', 9092, 0)]
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: connecting to 127.0.0.1:9092
+INFO:kafka.client:Bootstrap succeeded: found 1 brokers and 1 topics.
+INFO:kafka.conn:<BrokerConnection node_id=bootstrap host=localhost/127.0.0.1 port=9092>: Closing connection. 
+INFO:kafka.conn:<BrokerConnection node_id=0 host=jermell-900X5L/127.0.1.1 port=9092>: connecting to 127.0.1.1:9092
+INFO:kafka.conn:Broker version identifed as 0.10.1
+INFO:kafka.conn:Set configuration api_version=(0, 10, 1) to skip auto check_version requests on startup
+WARNING:kafka.coordinator.consumer:group_id is None: disabling auto-commit.
+INFO:kafka.consumer.subscription_state:Updating subscribed topics to: ('test',)
+WARNING:kafka.consumer.subscription_state:subscription unchanged by change_subscription(['test'])
+INFO:kafka.consumer.subscription_state:Updated partition assignment: [TopicPartition(topic='test', partition=0)]
+INFO:root:No messages for at least 30 seconds... Killing program.
+INFO:kafka.producer.kafka:Kafka producer closed

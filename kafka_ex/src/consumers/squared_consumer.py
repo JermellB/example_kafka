@@ -93,11 +93,11 @@ class SquaredConsumer(object):
                     try:
                         q.put(msg)
                         logging.info('putting msg: {0}'.format(msg))
+                        self.last_put = datetime.datetime.now()
 
                     except Exception:
                         traceback.print_exc()
 
-                    self.last_put = datetime.datetime.now()
 
                 #kill self if no messages in at least 30 seconds.
                 if datetime.datetime.now() > self.last_put + datetime.timedelta(seconds=30):
